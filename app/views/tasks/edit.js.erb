@@ -1,0 +1,4 @@
+$('#new_task a').hide();
+$('#new_task form').remove();
+$('#task_edit form').remove();
+$('#task_edit').append("<%= j render "form", task: @task %>");

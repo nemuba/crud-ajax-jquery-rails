@@ -1,0 +1,15 @@
+<div class="col col-4">
+  <div class="card">
+  <div class="card-header bg-dark text-white">
+   Task
+  </div>
+  <div class="card-body">
+    <p>
+      <%= @task.name %>
+    </p>
+  </div>
+  <div class="card-footer">
+    <%= link_to 'Close', root_path, class: "btn btn-danger btn-sm" %>
+  </div>
+</div>
+</div>

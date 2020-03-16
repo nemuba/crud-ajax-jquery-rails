@@ -1,0 +1,9 @@
+{
+  "name": "tasks",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "popper.js": "^1.16.0",
+    "toastify-js": "^1.7.0"
+  }
+}

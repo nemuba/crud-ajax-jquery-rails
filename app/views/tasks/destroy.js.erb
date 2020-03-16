@@ -1,0 +1,12 @@
+$("table tbody tr#task_<%= @task.id %>").remove().fadeOut();
+
+Toastify({
+  text: "Deleted with success ",
+  duration: 3000,
+  newWindow: true,
+  close: true,
+  gravity: "top", // `top` or `bottom`
+  position: 'right', // `left`, `center` or `right`
+  backgroundColor: "linear-gradient(to right, #ff0000, #ff0f3d)",
+  stopOnFocus: true, // Prevents dismissing of toast on hover
+}).showToast();
